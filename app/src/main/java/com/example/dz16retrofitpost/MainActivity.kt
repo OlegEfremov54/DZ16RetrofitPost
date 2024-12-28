@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         toolbarMain = findViewById(R.id.toolbarMain)
         setSupportActionBar(toolbarMain)
         title = "  Сабакен"
-        toolbarMain.subtitle = "Версия 1."
+        toolbarMain.subtitle = "Версия 1. ГавГав Сервер"
         toolbarMain.setLogo(R.drawable.round_pest_control_rodent_24)
 
         mainViewModel = ViewModelProvider(owner = this).get(MyViewModel::class.java)
